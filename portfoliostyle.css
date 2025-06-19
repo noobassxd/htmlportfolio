@@ -34,9 +34,12 @@ nav {
 }
 
 footer {
-	background: #c07dc8;
+	background: #6e375e;
 	padding: 30px;
 	color: white;
+	font: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 
 body {
@@ -49,13 +52,13 @@ span {
 
 h1 {
 	text-align: center;
-	font-family: 'Cinzel Decorative', 'Times New Roman';
+	font-family: 'Cinzel Decorative', Times;
 	text-transform: uppercase;
 }
 
 h2 {
 	text-align: center;
-	font-family: 'Cinzel Decorative', 'Times New Roman';
+	font-family: 'Cinzel Decorative', Times;
 	letter-spacing: 3px;
 
 }

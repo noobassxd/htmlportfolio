@@ -60,21 +60,20 @@ h2 {
 	text-align: center;
 	font-family: 'Cinzel Decorative', Times;
 	letter-spacing: 3px;
-
 }
 
 .border {
 	border: 10px solid transparent;
-	border-image: url(border.png) 30 stretch;
+	border-image: url(misc/border.png) 30 stretch;
 }
 
+/* This is the section in the middle that holds the content of the page */
 .content {
 	min-height: 100vh;
 	background-color: rgba(255, 213, 227, 0.637);
 	width: 1000px;
 	padding: 50px;
 	margin: auto;
-	
 }
 
 .button {

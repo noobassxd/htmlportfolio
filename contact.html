@@ -10,6 +10,7 @@
         <title> Contact - Licia's Portfolio </title>
         <style>
             input,
+            /* This style applies to input fields */
             textarea {
                 width: 100%;
                 height: 35px;
@@ -21,12 +22,13 @@
                 color: rgb(117, 15, 75);
             }
 
+            /* formatting of logo images */
             img {
-
                 width: 50px;
                 margin: auto;
             }
 
+            /* container to hold the social media information */
             .social {
                 display: flex;
                 justify-content: center;
@@ -50,23 +52,25 @@
             <div class="social">
                 <p style="padding-top:10px;"> Connect with me via these platforms or send me an email</p>
                 <a href="https://www.instagram.com/e_strelicia?igsh=a2Y3cm1ibnFlZzJw&utm_source=qr">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram logo"></a>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                        alt="Instagram logo"></a>
 
                 <a href="https://github.com/noobassxd" style="padding-left:20px;">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Github logo"></a>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                        alt="Github logo"></a>
             </div>
             <br>
             <form style="font:bold 14pt 'Cinzel Decorative';color:rgb(161, 61, 120);padding: 0px 40px;">
-                <label> Full Name: </label>
-                <input type="text" name="firstname">
+                <label for="fname"> Full Name: </label>
+                <input type="text" id="fname" name="firstname">
                 <br>
-                <label> Email: </label>
-                <input type="email" name="email" placeholder="your_email@example.com">
-                <label>Subject:</label>
-                <input type="text" name="subject">
-                <label for="message"> Message:</label> <br>
-                <textarea name="message" style="height: 200px;" placeholder="Type your message here"></textarea>
+                <label for="email"> Email: </label>
+                <input type="email" id="email" name="email" placeholder="your_email@example.com">
+                <label for="subject"> Subject: </label>
+                <input type="text" id="subject" name="subject">
+                <label for="message"> Message: </label> <br>
+                <textarea id="message" name="message" style="height: 200px;"
+                    placeholder="Type your message here"></textarea>
                 <br>
                 <input type="submit" value="Submit Message" class="button"
                     style="cursor:pointer;height:40px;width:200px;padding: 0px 10px;">
@@ -74,7 +78,11 @@
             <p style="text-align: center;"> <br> Thanks for reaching out! Expect a response within 3 days.</p>
         </div>
     </body>
-    <footer> This webpage was created for an ITEC3020 assignment. Please do not share.<br><br> Copyright &#169 2025
-        Licia T. Q. - All Rights Reserved.</footer>
+    <footer>
+        This webpage was created for an ITEC3020 assignment. Please do not share.<br><br> Copyright &#169 2025
+        Licia T. Q. - All Rights Reserved. Follow me on:
+        <a href="https://github.com/noobassxd">Github</a> |
+        <a href="https://www.instagram.com/e_strelicia?igsh=a2Y3cm1ibnFlZzJw&utm_source=qr">Instagram</a>
+    </footer>
 
     </html>

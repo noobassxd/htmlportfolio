@@ -1,0 +1,14 @@
+[
+    {
+    "post_id": 1,
+    "title": "Light/Dark Mode Switcher",
+    "description": "The process of implementing a light/dark mode switch across all webpages",
+    "content": "I added a toggle button to the page headers which made it show up on every page. Using JavaScript and a <a href='https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp'>W3Schools tutorial</a>, I made the button switch the theme to dark mode on click. By clicking on the button again, the theme swaps from dark to light. The styling for dark mode is located in my CSS file. Many elements are changed, including the color of the text, background, and content area. For now, light mode will be applied again once the user navigates to another page, so they will have to manually switch it back. In the future, I hope to learn how to make the theme stay consistent across different pages."
+    },
+    {
+    "post_id": 2,
+    "title": "Blog Post Display",
+    "description": "How I created a dynamic blog section",
+    "content": "After fetching the blog posts from a JSON file, the details of every post (title, description, and content) were added to the blog page, inside a container, with their proper styling (heading, paragraph, etc). Since the code applies to all the invidual posts in the file, it was not necessary to rewrite the same code for every post. The JSON file basically holds an array of variables containing information about every post. Simply by adding properly formatted information to the JSON file will cause a new post to show up in the blog page."
+    }
+]

@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en" height=100%>
 
     <head>
@@ -10,7 +10,6 @@
         <title> Contact - Licia's Portfolio </title>
         <style>
             input,
-            /* This style applies to input fields */
             textarea {
                 width: 100%;
                 height: 35px;
@@ -21,7 +20,15 @@
                 font: bold 14pt "Quintessential", Arial, Helvetica, sans-serif;
                 color: rgb(117, 15, 75);
             }
-
+            .dark-mode label {
+                color:rgb(180, 210, 255);
+                
+            }
+            .dark-mode input, .dark-mode textarea {
+                color:rgb(127, 178, 255);
+                background-color: rgba(44, 44, 44, 0.521);
+                border: 2px solid rgb(38, 52, 133);
+            }
             /* formatting of logo images */
             img {
                 width: 50px;
@@ -35,16 +42,9 @@
             }
         </style>
     </head>
-    <nav>
-        <a href="index.html"> home </a> <span> </span>
-        <a href="about.html"> about </a> <span> </span>
-        <a href="resume.html"> resume </a> <span> </span>
-        <a href="projects.html"> projects </a> <span> </span>
-        <a href="blog.html"> blog </a> <span> </span>
-        <a href="contact.html"> contact </a> <span> </span>
-    </nav>
 
     <body>
+        <div id="header"></div>
         <div class="content">
             <br><br>
             <h1> &#10025; contact me &#10025; </h1>
@@ -77,12 +77,8 @@
             </form>
             <p style="text-align: center;"> <br> Thanks for reaching out! Expect a response within 3 days.</p>
         </div>
+        <div id="footer"></div>
+	    <script src="script.js"></script>
     </body>
-    <footer>
-        This webpage was created for an ITEC3020 assignment. Please do not share.<br><br> Copyright &#169 2025
-        Licia T. Q. - All Rights Reserved. Follow me on:
-        <a href="https://github.com/noobassxd">Github</a> |
-        <a href="https://www.instagram.com/e_strelicia?igsh=a2Y3cm1ibnFlZzJw&utm_source=qr">Instagram</a>
-    </footer>
 
     </html>

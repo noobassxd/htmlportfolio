@@ -21,27 +21,6 @@ a {
 	text-decoration: none;
 }
 
-nav {
-	text-align: center;
-	background: #cd7ab8;
-	padding: 20px;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 10px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-
-footer {
-	background: #6e375e;
-	padding: 30px;
-	color: white;
-	font-size: 13px;
-	letter-spacing: 3px;
-	text-align: center;
-}
-
 body {
 	margin:0px;
 }
@@ -88,3 +67,23 @@ h2 {
 	border-radius: 6px;
 	text-align: center;
 }
+
+.dark-mode .button{
+	background-color:rgb(38, 52, 95);
+	border:none;
+}
+
+.dark-mode .content{
+	background-color: rgba(34, 34, 34, 0.671);
+	color: white;
+}
+
+.dark-mode{
+	background-image: url(https://static.vecteezy.com/system/resources/previews/042/056/318/non_2x/8bit-pixel-art-night-sky-game-space-landscape-vector.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" height=100%>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="portfoliostyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+	<style>
+		nav {
+			text-align: center;
+			background: #cd7ab8;
+			padding: 20px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 10px;
+			position: fixed;
+			width: 100%;
+		}
+		.dark-mode nav{
+			background: #292a4b;
+			color: black;
+		}
+		button {
+			border: none;
+			font: bold 12pt 'Quintessential';
+			border-radius: 6px;
+			background-color: rgba(209, 209, 209, 0.562);
+			color: rgb(56, 14, 75);
+			position: absolute;
+			right: 40px;
+		}
+	</style>
+</head>
+<header>
+	<nav>
+		<a href="index.html"> home </a><span> </span>
+		<a href="about.html"> about </a><span> </span>
+		<a href="resume.html"> resume </a><span> </span>
+		<a href="projects.html"> projects </a> <span> </span>
+		<a href="blog.html"> blog </a> <span> </span>
+		<a href="contact.html"> contact</a>
+		<button onclick="toggleMode()"> Switch Theme </button>
+	</nav>
+</header>
+
+</html>

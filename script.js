@@ -1,3 +1,4 @@
+// script for loading headers and footers
 document.addEventListener('DOMContentLoaded', function() {
     fetch('header.html')
         .then(response=> response.text())
@@ -13,10 +14,21 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Error loading footer:', error));
 });
 
+// script for toggling dark and light modes
 function toggleMode() {
-    document.documentElement.classList.toggle("dark-mode");
+    const darkTheme = document.documentElement.classList.toggle("dark-mode");
+    localStorage.setItem("theme", darkTheme ? "dark" : "light");
 }
 
+// script for remembering user selected theme
+document.addEventListener('DOMContentLoaded', () => {
+    const theme = localStorage.getItem("theme");
+    if (theme === "dark") {
+        document.documentElement.classList.add("dark-mode");
+    }
+});
+
+// script for fetching blog posts
 document.addEventListener('DOMContentLoaded', function() {
 const blogList = document.getElementById('blog-list');
 fetch('posts.json')
